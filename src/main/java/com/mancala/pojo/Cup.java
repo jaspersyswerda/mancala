@@ -5,8 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public abstract class Cup {
-    protected static final int NUMBEROFCUPSFORPLAYER = 6;
-    protected static final List<Integer> NEIGHBOURISKALAHACUPNUMBER = new ArrayList<>(Arrays.asList(NUMBEROFCUPSFORPLAYER,2*NUMBEROFCUPSFORPLAYER+1));
+    protected static final int NUMBEROFCUPSFOREACHPLAYER = 6;
+    protected static final List<Integer> NEIGHBOURCUPNUMBERISKALAHA = new ArrayList<>(Arrays.asList(NUMBEROFCUPSFOREACHPLAYER,2* NUMBEROFCUPSFOREACHPLAYER +1));
     protected Player player;
     protected int cupNumber;
     protected int numberOfStones;

@@ -26,7 +26,7 @@ public class NormalCup extends Cup {
     }
 
     private boolean neighbourIsKalaha(){
-        return NEIGHBOURISKALAHACUPNUMBER.contains(getCupNumber());
+        return NEIGHBOURCUPNUMBERISKALAHA.contains(getCupNumber());
     }
 
     public void doTurn() throws Exception {
